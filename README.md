@@ -35,3 +35,42 @@ ILINA_LLM_SAFETY/
     ├── ollama_client.py            # Ollama API client for LLaMA2-7B
     ├── analyze_res.py              # Analysis and evaluation utilities
     └── utils/                      # Helper modules (loading, processing, etc.)
+```
+## 🔄 Workflow
+
+Load prompt datasets from the prompts/ directory
+Send prompts to LLaMA2-7B via Ollama
+Collect and log detailed responses into results/responses.csv
+Analyze response patterns across prompt categories
+
+
+## 🔍 What This Project Explores
+
+Sensitivity of LLM safety mechanisms to prompt framing
+Differences in behavior between base, contextual, and perturbed prompts
+How rewording and intent masking affect compliance/refusal rates
+Early insights into prompt robustness in open-source LLMs
+
+
+## 📊 Output
+All experiment results are saved in:
+
+results/responses.csv — Contains prompts, responses, categories, and metadata for downstream analysis.
+
+
+## ⚠️ Notes
+
+This project is intended for research and safety evaluation purposes only.
+
+It aims to better understand model behavior under controlled conditions.
+
+It is not designed to bypass or weaken safety alignments.
+
+## 🚀 Getting Started
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/ILINA_LLM_SAFETY.git
+cd ILINA_LLM_SAFETY
+
+
+```
