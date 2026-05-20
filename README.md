@@ -69,8 +69,7 @@ It is not designed to bypass or weaken safety alignments.
 ## 🚀 Getting Started
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ILINA_LLM_SAFETY.git
-cd ILINA_LLM_SAFETY
-
+https://github.com/Jimmymugendi/AI-Safety-Prompt-Robustness-Evaluation-Framework.git
+cd AI-Safety-Prompt-Robustness-Evaluation-Framework
 
 ```
